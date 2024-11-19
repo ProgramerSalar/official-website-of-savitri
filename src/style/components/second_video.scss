@@ -1,0 +1,81 @@
+
+@media screen and (min-width: 1024px) {
+
+
+    .second-video-container{
+        display: flex;
+        // flex-direction: row;
+        margin-left: 2rem;
+        margin-right: 6rem;
+        flex-direction: column;
+    }
+    
+    
+    .five-video-are-found-in-this-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .first-column{
+    
+        display: flex;
+        flex-direction: column;
+        // background-color: green;
+        
+    
+    
+        video{
+            margin: 2rem;
+            width: 100%;
+            border-radius: 10%;
+    
+        }
+    
+    
+    }
+    
+    .second-video-column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        video{
+            width: 100%;
+            border-radius: 10%;
+        }
+        
+    }
+    
+    
+    .third-video-column{
+        display: flex;
+        flex-direction: column;
+        // background-color: green;
+    
+        video{
+            margin: 2rem;
+            border-radius: 10%;
+        }
+    }
+    
+    .prompt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-size: larger;
+        font-weight: bolder;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        opacity: 0.8;
+    
+        
+    }
+    
+    .prompt-container{
+        margin:15rem 0;
+    }
+}
+

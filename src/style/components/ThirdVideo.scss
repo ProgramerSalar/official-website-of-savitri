@@ -1,0 +1,27 @@
+
+
+.third-video-container{
+
+    display: flex;
+    flex-direction: row;
+
+
+    width: 30%;
+    // align-items: center;
+    // justify-content: center;
+    // background-color: green;
+    margin-right: 1rem;
+    margin-left: -1rem;
+    
+
+    video{
+        margin: 2rem;
+        border-radius: 5rem;
+    }
+
+
+
+
+
+
+}

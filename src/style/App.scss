@@ -3,6 +3,16 @@
 @use 'components/navbar.scss';
 @use 'pages/approach.scss';
 @use 'components/footer.scss';
+@use 'components/FirstVideo.scss';
+@use 'components/second_video.scss';
+@use 'components/ThirdVideo.scss';
+
+
+
+
+
+
+
 
 :root{
     line-height: 1.5;
@@ -28,12 +38,12 @@ body{
 
 .Home-container{
     display: block;
-    max-width: 1500px;
+    // max-width: 1500px;
     // border-left: 1px solid rgb(82, 79, 79);
     // border-right: 1px solid rgb(82, 79, 79);
     align-items: center;
     justify-content: center;
-    margin: auto;
+    // margin: auto;
 
 }
 

@@ -4,6 +4,7 @@ import approch_image from "../assets/Images/approch.png";
 
 import Video_content from "../components/Video_content";
 import Footer from "../components/Footer";
+import FirstVideo from "../components/FirstVideo";
 
 
 
@@ -15,6 +16,8 @@ const Approach = () => {
   return (
     <div className="Home-container ">
       <Navbar />
+      <FirstVideo/>
+
 
       <div className="contant-fe-re-container">
         <div className="contant-container">
